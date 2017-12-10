@@ -30,7 +30,7 @@
   margin: 0;
 }
 
-.bg-reverse {
+.bg-header {
   background-color: #383e42;
   color: #ffffff;
 }
@@ -71,6 +71,10 @@ h2 {
   /*background-position: bottom;*/
 }
 
+span {
+  color: #0090ff;
+}
+
 .text-capitalize {
   text-transform: capitalize;
 }
@@ -84,12 +88,33 @@ h2 {
   padding: 5rem 0;
 }
 
+.text-description {
+  padding: 3rem 4.5rem;
+}
+
+.text-contact, .three-piece-box {
+  padding: 0 4.5rem 3rem 4.5rem;
+}
+
+.text-description h3, .text-contact h3 {
+  margin-bottom: 0.500em;
+}
+
+.text-description p, .text-contact p {
+  line-height: 1.5;
+}
+
 button {
   background-color: #007bff;
   color: #fff;
-  border-radius: 5px;
+  border-radius: 0.313em;
   border: none;
   padding: 0.625em;
+}
+
+.text-description button {
+  margin-top: 1em;
+  font-size: 1em;
 }
 
 .bg-number {
@@ -106,10 +131,39 @@ button {
   padding: 1.0625em;
 }
 
-.box-card {
+.box-card-border {
   border: 1px solid #cccccc;
 }
 
+.bdr-rds-top {
+  border-top-left-radius: 0.313em;
+  border-top-right-radius: 0.313em;
+}
+
+.bdr-rds-bottom {
+  border-bottom-right-radius: 0.313em;
+  border-bottom-left-radius: 0.313em;
+}
+
+.box-card-border h3 {
+  padding: 1em;
+}
+
+.box-card-border p {
+  padding: 0 1em 1em;
+}
+
 footer {
+  background-color: #383e42;
   padding: 3rem;
 }
+/*
+.overlay h1 {
+  position: absolute;
+  z-index: 1;
+}
+
+.overlay h2 {
+  position: absolute;
+  z-index: -1;
+}*/
