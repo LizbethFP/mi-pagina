@@ -1,0 +1,85 @@
+/* menú hamburguesa */
+.main-hamburger {
+  position: absolute;
+  top: 25px;
+  right: 28px;
+  height: 2px;
+  width: 24px;
+  background: #d0d0d0;
+}
+
+.main-hamburger::before, .main-hamburger::after {
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 24px;
+  display: block;
+  background: #d0d0d0;
+}
+
+.main-hamburger::before {
+  top: -8px;
+}
+
+.main-hamburger::after {
+  top: 8px;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+.bg-reverse {
+  background-color: #383e42;
+  color: #ffffff;
+}
+
+a {
+  color: inherit;
+  font-size: inherit;
+  text-decoration: none;
+}
+
+nav {
+  padding: 14px;
+  overflow: hidden;
+}
+
+.nav-left {
+  font-size: 1.25rem;
+  float: left;
+}
+
+.nav-right {
+  float: right;
+}
+
+.none {
+  display: none;
+}
+
+h1 {
+  font-size: 6rem;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 7rem;
+  font-weight: 500;
+  color: #969696;
+  /*background-position: bottom;*/
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.overlay {
+  background: #cccccc;
+  padding: 5rem 0;
+}
