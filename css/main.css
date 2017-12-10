@@ -83,3 +83,33 @@ h2 {
   background: #cccccc;
   padding: 5rem 0;
 }
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  padding: 0.625em;
+}
+
+.bg-number {
+  background-color: #cccccc;
+  color: #969696;
+  padding: 3.4375em;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.bg-button {
+  background-color: #f7f7f7;
+  padding: 1.0625em;
+}
+
+.box-card {
+  border: 1px solid #cccccc;
+}
+
+footer {
+  padding: 3rem;
+}
