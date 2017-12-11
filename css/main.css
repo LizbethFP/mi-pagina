@@ -161,7 +161,13 @@ button {
 footer {
   background-color: #383e42;
   padding: 3rem;
+  font-weight: 400;
+  color: #fff;
 }
+
+/*footer p {
+  font-weight: bold;
+}*/
 /* Fin clases específicas */
 
 .view-mobile {
